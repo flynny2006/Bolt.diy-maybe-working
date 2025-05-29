@@ -1,0 +1,5 @@
+[[plugins]]
+package = "netlify-plugin-node-helpers"
+
+  [plugins.inputs]
+  nodeMemory = 4096
