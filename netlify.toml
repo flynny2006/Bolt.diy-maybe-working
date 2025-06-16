@@ -1,5 +1,5 @@
-[[plugins]]
-package = "netlify-plugin-node-helpers"
+[build]
+  command = "pnpm run build"
+  publish = "build/client"
 
-  [plugins.inputs]
-  nodeMemory = 4096
+# No plugins needed 
